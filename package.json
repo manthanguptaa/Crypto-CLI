@@ -1,0 +1,27 @@
+{
+  "name": "cryptocli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./bin/crypt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manthan109/Crypto-CLI.git"
+  },
+  "author": "Manthan Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Manthan109/Crypto-CLI/issues"
+  },
+  "homepage": "https://github.com/Manthan109/Crypto-CLI#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "commander": "^7.2.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^8.0.0"
+  }
+}
